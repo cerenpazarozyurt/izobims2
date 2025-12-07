@@ -12,15 +12,20 @@ use App\Http\Controllers\Auth\VerifyEmailController;
 use Illuminate\Support\Facades\Route;
 
 Route::middleware('guest')->group(function () {
-    Route::get('register', [RegisteredUserController::class, 'create'])
-        ->name('register');
-
-    Route::post('register', [RegisteredUserController::class, 'store']);
-
-    Route::get('login', [AuthenticatedSessionController::class, 'create'])
-        ->name('login');
-
-    Route::post('login', [AuthenticatedSessionController::class, 'store']);
+    // Normal kullanıcı kayıt ve giriş route'ları kaldırıldı - sadece admin paneli kullanılacak
+    // Route::get('register', [RegisteredUserController::class, 'create'])->name('register');
+    // Route::post('register', [RegisteredUserController::class, 'store']);
+    // Route::get('login', [AuthenticatedSessionController::class, 'create'])->name('login');
+    // Route::post('login', [AuthenticatedSessionController::class, 'store']);
+    
+    // Login ve register isteklerini dashboard'a yönlendir
+    Route::get('login', function () {
+        return redirect()->route('admin.login');
+    })->name('login');
+    
+    Route::get('register', function () {
+        return redirect()->route('admin.register');
+    });
 
     Route::get('forgot-password', [PasswordResetLinkController::class, 'create'])
         ->name('password.request');
