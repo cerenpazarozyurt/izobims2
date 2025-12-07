@@ -12,39 +12,40 @@ Proje, hem güçlü bir Yönetim Paneli hem de kullanıcı deneyimini yükselten
 
 Kullanıcı arayüzü, Tailwind CSS kullanılarak modern tasarım prensiplerine uygun olarak geliştirilmiştir.
 
-Modern & Responsive Tasarım
+**Modern & Responsive Tasarım**
 
-  Tailwind CSS ile tamamen responsive yapı
+  -Tailwind CSS ile tamamen responsive yapı
 
-  Minimal, modern ve kurumsal arayüz
+  -Minimal, modern ve kurumsal arayüz
 
-Gelişmiş CSS Animasyonları
+**Gelişmiş CSS Animasyonları**
 
-  Özel @keyframes ile giriş animasyonları (fadeInUp, slideIn)
+  -Özel @keyframes ile giriş animasyonları (fadeInUp, slideIn)
 
-  Arka planda hareket eden Blob efektleri
+  -Arka planda hareket eden Blob efektleri
 
-  Glassmorphism (buzlu cam) bileşenleri
+  -Glassmorphism (buzlu cam) bileşenleri
 
-  Kurumsal sayfada Pure CSS ile 3D Dönen Küp animasyonu
+  -Kurumsal sayfada Pure CSS ile 3D Dönen Küp animasyonu
 
-AJAX Tabanlı Ürün Deneyimi
+**AJAX Tabanlı Ürün Deneyimi**
 
-  Sayfa yenilenmeden kategori filtreleme
+  -Sayfa yenilenmeden kategori filtreleme
 
-  Ürün detaylarını Modal içinde AJAX ile hızlı yükleme
+  -Ürün detaylarını Modal içinde AJAX ile hızlı yükleme
 
-  Modal içi özel resim slider sistemi
+  -Modal içi özel resim slider sistemi
 
-İnteraktif Bileşenler
+**İnteraktif Bileşenler**
 
-  Accordion yapısında çalışan SSS bölümü
+  -Accordion yapısında çalışan SSS bölümü
 
-  Sertifika görselleri için Lightbox tarzı modal
+  -Sertifika görselleri için Lightbox tarzı modal
 
-  Kurumsal süreç için Timeline tasarımı
+  -Kurumsal süreç için Timeline tasarımı
 
 ![Anasayfa Tasarımı](screenshots/frontend.gif)
+
 ---
 
 ## 📸 Yönetim Paneli (Admin Dashboard)
