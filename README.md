@@ -44,7 +44,7 @@ AJAX Tabanlı Ürün Deneyimi
 
   Kurumsal süreç için Timeline tasarımı
 
-![Anasayfa Tasarımı](screenshots/frontend.png)
+![Anasayfa Tasarımı](screenshots/frontend.gif)
 ---
 
 ## 📸 Yönetim Paneli (Admin Dashboard)
